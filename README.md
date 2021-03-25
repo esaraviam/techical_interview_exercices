@@ -1,2 +1,2 @@
-# techical_interview_exercices
+# techical interview exercices
 A repo solving technical excercices in javaScript

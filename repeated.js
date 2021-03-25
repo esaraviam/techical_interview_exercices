@@ -5,21 +5,7 @@ function repeatedWords(phrase) {
     phrase.split(' ').forEach((item) => word === item && acc++);
     acc > 1 && result.push({ word, repeated: acc });
   });
-
-  //   let result = [];
-  //   for (let i = 0; i < uniqueWords.length; i++) {
-  //     let word = pArray[i];
-  //     let acc = 1;
-  //     for (let j = 0; j < pArray.length; j++) {
-  //       if (word === pArray[j]) {
-  //         acc++;
-  //       }
-  //     }
-  //     if (acc > 1) {
-  //       result.push({ word, acc });
-  //     }
-  //   }
-  console.log(result);
+  return result;
 }
 
 repeatedWords(

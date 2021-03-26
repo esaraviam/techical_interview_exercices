@@ -1,4 +1,4 @@
-const fizzBuzz = require('./FizzBuzz.js');
+const fizzBuzz = require('../FizzBuzz.js');
 describe('FizzBuzz Suite Test', () => {
   test('should print ok', () => {
     const expected = 'ok';

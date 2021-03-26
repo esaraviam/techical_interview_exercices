@@ -1,4 +1,4 @@
-const isValidSubsecuence = require('./ArraySubSequence.js');
+const isValidSubsecuence = require('../ArraySubSequence.js');
 describe('Array SubSequence', () => {
   test('should return a boolean', () => {
     const expected = true;

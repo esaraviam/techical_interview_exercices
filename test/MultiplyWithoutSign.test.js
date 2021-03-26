@@ -1,4 +1,4 @@
-const multiplyWithoutSign = require('./MultiplyWithoutSign');
+const multiplyWithoutSign = require('../MultiplyWithoutSign');
 describe('Multiply numbers whithout multiply sign', () => {
   test('should return the correct result', () => {
     const expected = 25;

@@ -24,9 +24,5 @@ function repeateWordsLinealSolution(phrase) {
       dic.set(nomalizedWord, 1);
     }
   }
-  console.log(dic);
+  return dic;
 }
-
-repeateWordsV2(
-  'tres tristes tigres Tres tigres!. tres, tigres tres tigres trigo trillado trigo trillado trigo trillado trigo trillado tragaban en un trigal'
-);

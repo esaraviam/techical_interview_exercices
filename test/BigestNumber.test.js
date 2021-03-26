@@ -1,4 +1,4 @@
-const BigestNumber = require('./BiggestNumber');
+const BigestNumber = require('../BiggestNumber');
 describe('Name of the group', () => {
   test('should return the bigest number', () => {
     const numberList = [1, 3, 5, 1, 44, 5, 6, 2, 3, 5, 8, 22];
